@@ -3,18 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0977A83F18A39A36E5D3F6A5 /* Pods_AvengoTest_AvengoTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B98E467C7105327A9CBE6A /* Pods_AvengoTest_AvengoTestUITests.framework */; };
+		6896D9887C82F7A90975FF2A /* Pods_AvengoTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59D35601F95AA8DAADE10BA8 /* Pods_AvengoTest.framework */; };
 		6EFD9DF1266E06E5006A87E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFD9DF0266E06E5006A87E5 /* AppDelegate.swift */; };
 		6EFD9DF3266E06E5006A87E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFD9DF2266E06E5006A87E5 /* SceneDelegate.swift */; };
-		6EFD9DF5266E06E5006A87E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFD9DF4266E06E5006A87E5 /* ViewController.swift */; };
+		6EFD9DF5266E06E5006A87E5 /* SearchRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFD9DF4266E06E5006A87E5 /* SearchRecipeViewController.swift */; };
 		6EFD9DF8266E06E5006A87E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EFD9DF6266E06E5006A87E5 /* Main.storyboard */; };
 		6EFD9DFA266E06E8006A87E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EFD9DF9266E06E8006A87E5 /* Assets.xcassets */; };
 		6EFD9DFD266E06E8006A87E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EFD9DFB266E06E8006A87E5 /* LaunchScreen.storyboard */; };
 		6EFD9E08266E06E8006A87E5 /* AvengoTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFD9E07266E06E8006A87E5 /* AvengoTestTests.swift */; };
 		6EFD9E13266E06E8006A87E5 /* AvengoTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFD9E12266E06E8006A87E5 /* AvengoTestUITests.swift */; };
+		6EFD9E21266E0724006A87E5 /* Debauncer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFD9E20266E0724006A87E5 /* Debauncer.swift */; };
+		6EFD9E24266E0771006A87E5 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFD9E23266E0771006A87E5 /* ViewControllerExtension.swift */; };
+		6EFD9E27266E07D0006A87E5 /* ErrorResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFD9E26266E07D0006A87E5 /* ErrorResponseModel.swift */; };
+		6EFD9E2C266E09C3006A87E5 /* RecipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFD9E2A266E09C3006A87E5 /* RecipeTableViewCell.swift */; };
+		6EFD9E2D266E09C3006A87E5 /* RecipeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EFD9E2B266E09C3006A87E5 /* RecipeTableViewCell.xib */; };
+		6EFD9E31266E0BE0006A87E5 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFD9E30266E0BE0006A87E5 /* FavoriteViewController.swift */; };
+		6EFD9E33266E95C9006A87E5 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFD9E32266E95C9006A87E5 /* ApiManager.swift */; };
+		6EFD9E35266E95D8006A87E5 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFD9E34266E95D8006A87E5 /* Service.swift */; };
+		6EFD9E37266E9624006A87E5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFD9E36266E9624006A87E5 /* Constants.swift */; };
+		6EFD9E39266E974D006A87E5 /* DetalizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFD9E38266E974D006A87E5 /* DetalizationViewController.swift */; };
+		6EFD9E3B266E9FFA006A87E5 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFD9E3A266E9FFA006A87E5 /* RecipeModel.swift */; };
+		6EFD9E3F266EADFD006A87E5 /* ApiSearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFD9E3E266EADFD006A87E5 /* ApiSearchModel.swift */; };
+		8CE50F7108BF92FF0095E62F /* Pods_AvengoTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7761973E91212AC251F4CAA /* Pods_AvengoTestTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +50,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07C70CFE0054F9A080A81906 /* Pods-AvengoTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AvengoTestTests.debug.xcconfig"; path = "Target Support Files/Pods-AvengoTestTests/Pods-AvengoTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		09947FA2325AB011951B410A /* Pods-AvengoTest-AvengoTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AvengoTest-AvengoTestUITests.release.xcconfig"; path = "Target Support Files/Pods-AvengoTest-AvengoTestUITests/Pods-AvengoTest-AvengoTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2355087CDD764E3178B92640 /* Pods-AvengoTest-AvengoTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AvengoTest-AvengoTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-AvengoTest-AvengoTestUITests/Pods-AvengoTest-AvengoTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F17ED7A1276A32348813491 /* Pods-AvengoTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AvengoTest.release.xcconfig"; path = "Target Support Files/Pods-AvengoTest/Pods-AvengoTest.release.xcconfig"; sourceTree = "<group>"; };
+		4006CAA527DFBE9830DD85CA /* Pods-AvengoTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AvengoTest.debug.xcconfig"; path = "Target Support Files/Pods-AvengoTest/Pods-AvengoTest.debug.xcconfig"; sourceTree = "<group>"; };
+		59D35601F95AA8DAADE10BA8 /* Pods_AvengoTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AvengoTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EFD9DED266E06E5006A87E5 /* AvengoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvengoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EFD9DF0266E06E5006A87E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6EFD9DF2266E06E5006A87E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6EFD9DF4266E06E5006A87E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6EFD9DF4266E06E5006A87E5 /* SearchRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRecipeViewController.swift; sourceTree = "<group>"; };
 		6EFD9DF7266E06E5006A87E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6EFD9DF9266E06E8006A87E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6EFD9DFC266E06E8006A87E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +70,21 @@
 		6EFD9E0E266E06E8006A87E5 /* AvengoTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvengoTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EFD9E12266E06E8006A87E5 /* AvengoTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvengoTestUITests.swift; sourceTree = "<group>"; };
 		6EFD9E14266E06E8006A87E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EFD9E20266E0724006A87E5 /* Debauncer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debauncer.swift; sourceTree = "<group>"; };
+		6EFD9E23266E0771006A87E5 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
+		6EFD9E26266E07D0006A87E5 /* ErrorResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponseModel.swift; sourceTree = "<group>"; };
+		6EFD9E2A266E09C3006A87E5 /* RecipeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTableViewCell.swift; sourceTree = "<group>"; };
+		6EFD9E2B266E09C3006A87E5 /* RecipeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipeTableViewCell.xib; sourceTree = "<group>"; };
+		6EFD9E30266E0BE0006A87E5 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		6EFD9E32266E95C9006A87E5 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		6EFD9E34266E95D8006A87E5 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		6EFD9E36266E9624006A87E5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6EFD9E38266E974D006A87E5 /* DetalizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalizationViewController.swift; sourceTree = "<group>"; };
+		6EFD9E3A266E9FFA006A87E5 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
+		6EFD9E3E266EADFD006A87E5 /* ApiSearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiSearchModel.swift; sourceTree = "<group>"; };
+		A7B98E467C7105327A9CBE6A /* Pods_AvengoTest_AvengoTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AvengoTest_AvengoTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD6C8202E758B4D60ABA17FB /* Pods-AvengoTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AvengoTestTests.release.xcconfig"; path = "Target Support Files/Pods-AvengoTestTests/Pods-AvengoTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		D7761973E91212AC251F4CAA /* Pods_AvengoTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AvengoTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6896D9887C82F7A90975FF2A /* Pods_AvengoTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CE50F7108BF92FF0095E62F /* Pods_AvengoTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +108,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0977A83F18A39A36E5D3F6A5 /* Pods_AvengoTest_AvengoTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06BEBB146C1A92D40C330F28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59D35601F95AA8DAADE10BA8 /* Pods_AvengoTest.framework */,
+				A7B98E467C7105327A9CBE6A /* Pods_AvengoTest_AvengoTestUITests.framework */,
+				D7761973E91212AC251F4CAA /* Pods_AvengoTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6EFD9DE4266E06E5006A87E5 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +132,8 @@
 				6EFD9E06266E06E8006A87E5 /* AvengoTestTests */,
 				6EFD9E11266E06E8006A87E5 /* AvengoTestUITests */,
 				6EFD9DEE266E06E5006A87E5 /* Products */,
+				C592C3A472FEBADB3711568C /* Pods */,
+				06BEBB146C1A92D40C330F28 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +152,13 @@
 			children = (
 				6EFD9DF0266E06E5006A87E5 /* AppDelegate.swift */,
 				6EFD9DF2266E06E5006A87E5 /* SceneDelegate.swift */,
-				6EFD9DF4266E06E5006A87E5 /* ViewController.swift */,
-				6EFD9DF6266E06E5006A87E5 /* Main.storyboard */,
+				6EFD9E28266E07DC006A87E5 /* Models */,
+				6EFD9E29266E0800006A87E5 /* Recipes */,
 				6EFD9DF9266E06E8006A87E5 /* Assets.xcassets */,
 				6EFD9DFB266E06E8006A87E5 /* LaunchScreen.storyboard */,
 				6EFD9DFE266E06E8006A87E5 /* Info.plist */,
+				6EFD9E22266E0729006A87E5 /* Helpers */,
+				6EFD9E2E266E09C8006A87E5 /* CustomUI */,
 			);
 			path = AvengoTest;
 			sourceTree = "<group>";
@@ -128,6 +181,77 @@
 			path = AvengoTestUITests;
 			sourceTree = "<group>";
 		};
+		6EFD9E22266E0729006A87E5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6EFD9E20266E0724006A87E5 /* Debauncer.swift */,
+				6EFD9E32266E95C9006A87E5 /* ApiManager.swift */,
+				6EFD9E34266E95D8006A87E5 /* Service.swift */,
+				6EFD9E36266E9624006A87E5 /* Constants.swift */,
+				6EFD9E25266E0783006A87E5 /* Extensions */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		6EFD9E25266E0783006A87E5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6EFD9E23266E0771006A87E5 /* ViewControllerExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6EFD9E28266E07DC006A87E5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6EFD9E26266E07D0006A87E5 /* ErrorResponseModel.swift */,
+				6EFD9E3A266E9FFA006A87E5 /* RecipeModel.swift */,
+				6EFD9E3E266EADFD006A87E5 /* ApiSearchModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6EFD9E29266E0800006A87E5 /* Recipes */ = {
+			isa = PBXGroup;
+			children = (
+				6EFD9DF4266E06E5006A87E5 /* SearchRecipeViewController.swift */,
+				6EFD9E30266E0BE0006A87E5 /* FavoriteViewController.swift */,
+				6EFD9E38266E974D006A87E5 /* DetalizationViewController.swift */,
+				6EFD9DF6266E06E5006A87E5 /* Main.storyboard */,
+			);
+			path = Recipes;
+			sourceTree = "<group>";
+		};
+		6EFD9E2E266E09C8006A87E5 /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				6EFD9E2F266E09D3006A87E5 /* REcipeTebleViewCell */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		6EFD9E2F266E09D3006A87E5 /* REcipeTebleViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				6EFD9E2A266E09C3006A87E5 /* RecipeTableViewCell.swift */,
+				6EFD9E2B266E09C3006A87E5 /* RecipeTableViewCell.xib */,
+			);
+			path = REcipeTebleViewCell;
+			sourceTree = "<group>";
+		};
+		C592C3A472FEBADB3711568C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4006CAA527DFBE9830DD85CA /* Pods-AvengoTest.debug.xcconfig */,
+				2F17ED7A1276A32348813491 /* Pods-AvengoTest.release.xcconfig */,
+				2355087CDD764E3178B92640 /* Pods-AvengoTest-AvengoTestUITests.debug.xcconfig */,
+				09947FA2325AB011951B410A /* Pods-AvengoTest-AvengoTestUITests.release.xcconfig */,
+				07C70CFE0054F9A080A81906 /* Pods-AvengoTestTests.debug.xcconfig */,
+				BD6C8202E758B4D60ABA17FB /* Pods-AvengoTestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +259,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6EFD9E17266E06E8006A87E5 /* Build configuration list for PBXNativeTarget "AvengoTest" */;
 			buildPhases = (
+				5AEE5CA44C5F526F1B2D4CF1 /* [CP] Check Pods Manifest.lock */,
 				6EFD9DE9266E06E5006A87E5 /* Sources */,
 				6EFD9DEA266E06E5006A87E5 /* Frameworks */,
 				6EFD9DEB266E06E5006A87E5 /* Resources */,
+				F619B7851D65F311F7B3A445 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +278,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6EFD9E1A266E06E8006A87E5 /* Build configuration list for PBXNativeTarget "AvengoTestTests" */;
 			buildPhases = (
+				2DEC9B88BB1D6B6085FDCE5E /* [CP] Check Pods Manifest.lock */,
 				6EFD9DFF266E06E8006A87E5 /* Sources */,
 				6EFD9E00266E06E8006A87E5 /* Frameworks */,
 				6EFD9E01266E06E8006A87E5 /* Resources */,
@@ -170,9 +297,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6EFD9E1D266E06E8006A87E5 /* Build configuration list for PBXNativeTarget "AvengoTestUITests" */;
 			buildPhases = (
+				976DD265DBC777FB5864D73D /* [CP] Check Pods Manifest.lock */,
 				6EFD9E0A266E06E8006A87E5 /* Sources */,
 				6EFD9E0B266E06E8006A87E5 /* Frameworks */,
 				6EFD9E0C266E06E8006A87E5 /* Resources */,
+				DF59E0223FC0652B4313C838 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,6 +363,7 @@
 				6EFD9DFD266E06E8006A87E5 /* LaunchScreen.storyboard in Resources */,
 				6EFD9DFA266E06E8006A87E5 /* Assets.xcassets in Resources */,
 				6EFD9DF8266E06E5006A87E5 /* Main.storyboard in Resources */,
+				6EFD9E2D266E09C3006A87E5 /* RecipeTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +383,128 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2DEC9B88BB1D6B6085FDCE5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AvengoTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AEE5CA44C5F526F1B2D4CF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AvengoTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		976DD265DBC777FB5864D73D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AvengoTest-AvengoTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF59E0223FC0652B4313C838 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AvengoTest-AvengoTestUITests/Pods-AvengoTest-AvengoTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AvengoTest-AvengoTestUITests/Pods-AvengoTest-AvengoTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AvengoTest-AvengoTestUITests/Pods-AvengoTest-AvengoTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F619B7851D65F311F7B3A445 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AvengoTest/Pods-AvengoTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AvengoTest/Pods-AvengoTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AvengoTest/Pods-AvengoTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6EFD9DE9266E06E5006A87E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EFD9DF5266E06E5006A87E5 /* ViewController.swift in Sources */,
+				6EFD9DF5266E06E5006A87E5 /* SearchRecipeViewController.swift in Sources */,
+				6EFD9E37266E9624006A87E5 /* Constants.swift in Sources */,
+				6EFD9E33266E95C9006A87E5 /* ApiManager.swift in Sources */,
+				6EFD9E3B266E9FFA006A87E5 /* RecipeModel.swift in Sources */,
 				6EFD9DF1266E06E5006A87E5 /* AppDelegate.swift in Sources */,
 				6EFD9DF3266E06E5006A87E5 /* SceneDelegate.swift in Sources */,
+				6EFD9E2C266E09C3006A87E5 /* RecipeTableViewCell.swift in Sources */,
+				6EFD9E27266E07D0006A87E5 /* ErrorResponseModel.swift in Sources */,
+				6EFD9E24266E0771006A87E5 /* ViewControllerExtension.swift in Sources */,
+				6EFD9E39266E974D006A87E5 /* DetalizationViewController.swift in Sources */,
+				6EFD9E35266E95D8006A87E5 /* Service.swift in Sources */,
+				6EFD9E31266E0BE0006A87E5 /* FavoriteViewController.swift in Sources */,
+				6EFD9E3F266EADFD006A87E5 /* ApiSearchModel.swift in Sources */,
+				6EFD9E21266E0724006A87E5 /* Debauncer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +677,7 @@
 		};
 		6EFD9E18266E06E8006A87E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4006CAA527DFBE9830DD85CA /* Pods-AvengoTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +697,7 @@
 		};
 		6EFD9E19266E06E8006A87E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F17ED7A1276A32348813491 /* Pods-AvengoTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +717,7 @@
 		};
 		6EFD9E1B266E06E8006A87E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07C70CFE0054F9A080A81906 /* Pods-AvengoTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +740,7 @@
 		};
 		6EFD9E1C266E06E8006A87E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD6C8202E758B4D60ABA17FB /* Pods-AvengoTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +763,7 @@
 		};
 		6EFD9E1E266E06E8006A87E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2355087CDD764E3178B92640 /* Pods-AvengoTest-AvengoTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +784,7 @@
 		};
 		6EFD9E1F266E06E8006A87E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09947FA2325AB011951B410A /* Pods-AvengoTest-AvengoTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
